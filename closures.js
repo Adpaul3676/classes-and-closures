@@ -92,7 +92,7 @@ function makeCounter () {
 
 function counterFactory(value) {
   // Code here.
-  const count = value;
+  let count = value;
   return { 
     inc: function () {
       count++;
